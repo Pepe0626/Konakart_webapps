@@ -4,10 +4,7 @@
 <link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
 <link type="text/css" rel="stylesheet" href="../styles/kk-tile-gen.min.css" />
 <link type="text/css" rel="stylesheet" href="../styles/jcarousel.css" />				
-<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-<link rel="stylesheet" href="konakart_tiles/gensrc/carrusel/css/carrusel_b.css">
-
-<script src="konakart_tiles/gensrc/carrusel/js/carrusel_b.js"></script>	
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />	
 			
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
@@ -28,51 +25,24 @@
 <script type="text/javascript" src="../script/jquery.ui.datepicker-en.js"></script>
 <script type="text/javascript" src="../script/polyglot.js"></script>
 <script type="text/javascript" src="../script/kk-tile-gen.min.js"></script>
-
-
-<script>
-		function principal() { // onload body
-    new CarruselB({
-      id: "carrusel_b",
-      waiting: 7000, // milliseconds (false per desactivar)
-    });
-  }	
-</script>
 </head>
-<body onload="principal()">	
+<body>	
 	<script>	
 	$(function() {		
 			kk.storeInit();
-	});	
+	});		
 	</script>
 	<div id="kk-page-container">
 	    <div id="kk-page">
-	    	<div id="kk-top-bar-container">
-				<div id="kk-top-bar">
-					<div id="kk-options-container">
-						<div id="kk-options">	
-							<div id="kk-popup-cart-tile"></div>
-							<div id="kk-popup-wishList-tile"></div>
-							<a id="kk-account-link"></a>
-							<a id="kk-logout-link"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="search-tile"></div>
-			<div id="main-menu"></div>
-			<div id="breadcrumbs-tile"></div>
+
 			<div id="kk-products-container">
 				<div id="facets-tile"></div>
 				<div id="kk-content" class="narrow">
 					<div id="products-tile"></div>	
 				</div>	
 			</div>
-			<div id="body-tile"></div>
-			<div id="carousel-tile"></div>
-							
+			<div id="body-tile"></div>				
 		</div>					
-	</div>	
-	<div class="kk-modal"></div>				
+	</div>				
 </body>
 </html>
